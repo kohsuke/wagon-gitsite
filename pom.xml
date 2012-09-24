@@ -18,7 +18,7 @@
   </parent>
 
 	<artifactId>wagon-gitsite</artifactId>
-	<version>0.3.5</version>
+	<version>0.3.6-SNAPSHOT</version>
 	<name>Maven Wagon GitHub Pages Provider</name>
 	<description>
         Wagon for deploying site documentation to the gh-pages branch of a GitHub repository.
