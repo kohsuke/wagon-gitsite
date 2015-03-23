@@ -595,7 +595,7 @@ public class GitSiteWagon extends AbstractWagon {
                 int addedFiles = addFiles(scmProvider, scmRepository, newCheckoutDirectory,
                                           sourceDirectory.isDirectory() ? "" : scmFile.getName());
 
-                if (!fileAlreadyInScm && addedFiles == 0) {
+                if (!fileAlreadyInScm) {
                     throw new ScmException("Unable to add file to SCM: " + scmFile + "; see error messages above for more information");
                 }
             }
