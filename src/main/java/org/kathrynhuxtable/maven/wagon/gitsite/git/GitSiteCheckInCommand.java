@@ -195,7 +195,7 @@ public class GitSiteCheckInCommand extends AbstractCheckInCommand implements Git
 
         cl.createArg().setValue("origin");
 
-        cl.createArg().setValue("master:" + version.getName());
+        cl.createArg().setValue("HEAD:" + version.getName());
 
         return cl;
     }
